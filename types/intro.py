@@ -146,3 +146,90 @@
 # r = int(input('веддиье радиус;'))
 # result_(плозадь окрудности', round(resilt_s))
 # print('перимерт окурдности')
+
+
+
+# ; орераторы сравнение \
+# ; условыне операторы
+# ; логические опреаторы
+# ;оператор сравнение
+# ; ; <,>, ==(ровно) <=, >=, !=ыне равно
+# ; 1 < 5 >true
+# ; 7>9 >false
+  
+
+
+# n = 20
+# n1 = 17
+# print(n <= n1)
+
+# st1 = 'hello'
+# st2 = 'word'
+
+# print(ord('H'))
+
+# # print (st1 >     st2)
+
+
+
+# # num = 15
+# # num2 = 16
+# # print(num == num2)
+
+# print(chr(1080))
+# print(len(st1) > len(st2))
+
+# условные операторы 
+
+# if, elif, else.
+
+# if <condition>;  
+# <dody if> #cрабатывыает если во всех выше стоящих условиях пришло false
+# elif
+
+# st = input('enter something')
+# if st.lower == 'hello':
+#     print('hello mazafucka!')
+# elif st.lower == 'tooo':
+#     print('welcom bake asdnasouecsacmsdivmeie')
+# elif st.lower == 'abra karabra':
+#     print ('sim salabim')
+# else:
+#     print( 'what the hall you tolking about')
+    
+
+# email = input('enter the email')
+# pw = input('enter y e password')
+    
+# if len(pw) < 8:
+#         raise ValueError('password too short!')
+
+# pw2 = input('enter the password confirmation : ')
+
+# if pw2 != pw:
+#     raise ValueError ('password didnt match!')
+
+# else:
+# #     print('successfully sined up!')
+# age = input('entire y age')
+# if age.isdigit():
+#     print ('urraaaaa')
+# else:
+#     raise Exception('Invalid values')
+# else:
+#     print('you can bay it!')
+
+# длогические операторы 
+# and > логическое и 
+# or логическое или 
+# not логическое отрицание 
+
+myage = 20
+youage = 18
+result = myage == 20 and youage == 19
+print( result)
+
+result =myage == 20 or youage == 19
+print (result)
+result = not myage == 200
+print(result)

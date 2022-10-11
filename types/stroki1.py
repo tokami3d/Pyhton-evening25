@@ -94,3 +94,5 @@ negative = -6
 
 print(fabs(positive))
 print(fabs(negative))
+
+print('резульат', 7, 9, 10, '.', sep='/')
